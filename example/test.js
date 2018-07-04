@@ -20,7 +20,11 @@ let reader = new lib.Reader(stream)
     for (let i = 0, len = 20; i < len; ++i)
     {
         another_writer.append_string("this is gonna be a huge thing")
+        let pos = another_writer.offset
+
         another_writer.append_int32(-2342341)
+
+        another_writer.replace_int32(-10000, pos)
     }
 
     writer.append_bytes(another)
