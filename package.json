@@ -1,6 +1,6 @@
 {
   "name": "buffer-op",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "a toolset of how to handle the buffer",
   "main": "lib/index.js",
   "scripts": {
