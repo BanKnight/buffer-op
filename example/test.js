@@ -24,7 +24,7 @@ let reader = new lib.Reader(stream)
 
         another_writer.append_int32(-2342341)
 
-        another_writer.replace_int32(-10000, pos)
+        another_writer.replace_int32(-3123, pos)
     }
 
     writer.append_bytes(another)
